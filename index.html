@@ -61,20 +61,22 @@
         <h2>Formula:</h2>
         <h4>(32°F − 32) × 5/9 = °C</h4>
         <h5>insert temperature:</h5>
-                 <!-- Numeric Textfield -->
-          <form action="#">
-            <div class="mdl-textfield mdl-js-textfield">
-              <input
-                class="mdl-textfield__input"
-                type="text"
-                pattern="-?[0-9]*(\.[0-9]+)?"
-                id="temperature"
-              />
-              <label class="mdl-textfield__label" for="temperature">number...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-          </form>
-        <br>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="temperature"
+            />
+            <label class="mdl-textfield__label" for="temperature"
+              >number...</label
+            >
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <br />
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="myButtonClicked()"
