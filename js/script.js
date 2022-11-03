@@ -25,5 +25,5 @@ function myButtonClicked() {
 
   // output
   document.getElementById("celcius").innerHTML =
-    "in celcius is: " + temp.toFixed(2) + " °C"
+    "in celcius is: " + temp + " °C"
 }
