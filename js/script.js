@@ -17,5 +17,13 @@ if (navigator.serviceWorker) {
  * this function
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  // input
+  const fahrenheit = parseInt(document.getElementById("temperature").value)
+
+  // process
+  const temp = (fahrenheit - 32) * 5.00 / 9.00
+
+  // output
+  document.getElementById("celcius").innerHTML =
+    "in celcius is: " + temp.toFixed(2) + " °C"
 }
