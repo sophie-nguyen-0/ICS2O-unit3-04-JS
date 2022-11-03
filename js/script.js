@@ -21,7 +21,7 @@ function myButtonClicked() {
   const fahrenheit = parseInt(document.getElementById("temperature").value)
 
   // process
-  const temp = (fahrenheit - 32) * 5.00 / 9.00
+  const temp = ((fahrenheit - 32) * 5.0) / 9.0
 
   // output
   document.getElementById("celcius").innerHTML =
