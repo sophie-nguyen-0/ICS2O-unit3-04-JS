@@ -4,8 +4,26 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
+                <mxCell id="2" value="Celcius to fahrenheit" style="swimlane;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="70" y="190" width="460" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="220" width="460" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;h1&gt;formula&lt;/h1&gt;&lt;div&gt;(F - 32) x 5/9 = C&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;insert temperature&lt;/div&gt;&lt;b style=&quot;color: rgb(189 , 193 , 198) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="220" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;fontColor=#000000;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="77" y="330" as="sourcePoint"/>
+                        <mxPoint x="217" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="button" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFE600;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="340" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="answer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="380" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
